@@ -1,8 +1,8 @@
-exports.topics = [{
-  name: '_status',
-  description: 'Status of Heroku Platform'
-}];
+exports.topic = {
+  name: 'status',
+  description: 'status of the Heroku platform',
+};
 
 exports.commands = [
-  require('./lib/commands/status')
+  require('./commands/status')
 ];

@@ -1,7 +1,6 @@
-[![npm version](https://badge.fury.io/js/heroku-status.svg)](http://badge.fury.io/js/heroku-status)
-
 CLI Plugin for [Heroku Status](https://status.heroku.com)
 ===========
+[![Circle CI](https://circleci.com/gh/heroku/heroku-status.svg?style=svg)](https://circleci.com/gh/heroku/heroku-status)
 
 Read more about Toolbelt 4.0 plugins [here](https://github.com/heroku/heroku-hello-world#heroku-hello-world).
 
@@ -19,7 +18,7 @@ Available commands
 -------------------
 
 ```bash
-$ heroku _status
+$ heroku status
 === Heroku Status
 Development: No known issues at this time.
 Production: No known issues at this time.
@@ -28,7 +27,7 @@ Production: No known issues at this time.
 or, if there were a real incident...
 
 ```bash
-$ heroku _status
+$ heroku status
 === Heroku Status
 Development: Yellow
 Production: Yellow
